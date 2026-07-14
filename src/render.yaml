@@ -1,13 +1,20 @@
 services:
   - type: web
     name: shader-painting-frontend
-    env: static
+    env: node 
     buildCommand: npm install && npm run build
+    startCommand: npm run start
     staticPublishPath: ./dist
     routes:
       - type: rewrite
         source: /*
         destination: /index.html
+    envVars:
+      - key: NODE_VERSION
+        value: 20.11.0
+
+
+        
     envVars:
       - key: NODE_VERSION
         value: 20.11.0
