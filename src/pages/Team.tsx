@@ -8,7 +8,6 @@ type TeamMember = {
   socials: {
     linkedin: string
     github: string
-    facebook: string
     email: string
   }
 }
