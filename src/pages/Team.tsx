@@ -15,18 +15,6 @@ type TeamMember = {
 
 const teamMembers: TeamMember[] = [
   {
-    name: 'Azmir Zahid',
-    role: 'Project Manager',
-    accent: '#9cc9ff',
-    image: '/images/team-azmir.jpg',
-    socials: {
-      linkedin: '#',
-      github: '#',
-      facebook: '#',
-      email: 'mailto:azmir.zahid@example.com',
-    },
-  },
-  {
     name: 'Ammar Arshad',
     role: 'AI Engineer',
     accent: '#e7f0ff',
