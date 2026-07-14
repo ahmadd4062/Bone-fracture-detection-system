@@ -1,4 +1,4 @@
-import { Facebook, Github, Linkedin, Mail, ScanFace, Sparkles, Users } from 'lucide-react'
+import { Github, Linkedin, Mail, ScanFace, Sparkles, Users } from 'lucide-react'
 
 type TeamMember = {
   name: string
@@ -21,7 +21,6 @@ const teamMembers: TeamMember[] = [
     socials: {
       linkedin: 'https://www.linkedin.com/in/ammar-arshad2/',
       github: 'https://github.com/malikammar1046',
-      facebook: 'https://www.facebook.com/malikammar1046',
       email: 'mailto:malikammar1046@gmail.com',
     },
   },
@@ -33,7 +32,6 @@ const teamMembers: TeamMember[] = [
     socials: {
       linkedin: 'https://www.linkedin.com/in/ahmad-arshad62/',
       github: 'https://github.com/ahmadd4062',
-      facebook: '#',
       email: 'mailto:ahmaddd4062@gmail.com',
     },
   },
@@ -45,7 +43,6 @@ const teamMembers: TeamMember[] = [
     socials: {
       linkedin: '#',
       github: '#',
-      facebook: '#',
       email: 'mailto:hamza.ahmed@example.com',
     },
   },
