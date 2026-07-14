@@ -32,10 +32,10 @@ const teamMembers: TeamMember[] = [
     accent: '#b9e3d6',
     image: '/images/team-ahmad.jpg',
     socials: {
-      linkedin: '#',
-      github: '#',
+      linkedin: 'https://www.linkedin.com/in/ahmad-arshad62/',
+      github: 'https://github.com/ahmadd4062',
       facebook: '#',
-      email: 'mailto:ahmad.arshad@example.com',
+      email: 'mailto:ahmaddd4062@gmail.com',
     },
   },
   {
@@ -55,7 +55,6 @@ const teamMembers: TeamMember[] = [
 const socialItems = [
   { key: 'linkedin', label: 'LinkedIn', icon: Linkedin },
   { key: 'github', label: 'GitHub', icon: Github },
-  { key: 'facebook', label: 'Facebook', icon: Facebook },
   { key: 'email', label: 'Email', icon: Mail },
 ] as const
 
@@ -156,7 +155,7 @@ export default function Team() {
               }}
             >
               {[
-                { icon: Users, label: '4 Members' },
+                { icon: Users, label: '3 Members' },
                 { icon: ScanFace, label: 'DIP Focused' },
               ].map((item) => (
                 <div
