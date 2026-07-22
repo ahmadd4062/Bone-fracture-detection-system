@@ -86,6 +86,7 @@ Output in `dist/`.
     ├── main.tsx             # BrowserRouter + root
     ├── App.tsx              # Routes: / and /work/:id
     ├── index.css / App.css  # base styles
+    ├── render.yaml 
     ├── pages/
     │   ├── Home.tsx         # Hero → Gallery → Instant → Footer
     │   └── WorkDetail.tsx   # large image + article
